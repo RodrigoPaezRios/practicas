@@ -7,39 +7,48 @@
     <title>Document</title>
 </head>
 <body class="bg-gray-800 ">
-    <div class="h-screen max-w-7xl mx-auto" id="container">
+  
+    <div class="h-screen max-w-8xl mx-auto" id="container">
+      <header>
         <div class="p-4">
-            <div class="rounded-md shadow bg-gray-700 p-4">
-                <h4 class="text-lg font-medium text-amber-500 flex justify-center">
-                    Prueba Tailwind
-                </h4>
-            </div>
+          <div class="rounded-md shadow bg-gray-700 p-4">
+            <h4 class=" text-2xl font-medium text-amber-500 flex justify-center">
+              Prueba Tailwind
+            </h4>
+          </div>
         </div>
-        <div class="p-4 lg:grid grid-cols-12 gap-4">
-            <div class="col-span-6 rounded-md shadow bg-gray-700 p-4 h-60 flex justify-center">
-                <div class="text-lg font-medium text-amber-500 ">
-                    Card1
-                    <img src="https://www.ansararagon.com/wp-content/uploads/2013/10/montana.jpg" alt="montaña" class="h-32 w-48 rounded-md" >
-                </div>
-            </div>
-            <div class="mt-4 lg:mt-0 col-span-6 rounded-md shadow bg-gray-700 p-4 h-60 flex justify-center">
-                <div class="text-lg font-medium text-amber-500">
-                    Card2
-                    <img src="https://cdn0.geoenciclopedia.com/es/posts/8/0/0/montanas_8_600.jpg" alt="" class="h-32 w-48 rounded-md ">
-                </div>
-            </div>
+      </header>
+      <div class="p-4 flex flex-wrap gap-4">
+    <div class="flex-1 rounded-md shadow bg-gray-700 p-4 h-60 flex flex-col items-center mb-4">
+        <div class="h-4 text-xl font-medium text-amber-500 mb-4">
+            Card1
         </div>
-        
+        <img src="https://img.freepik.com/fotos-premium/concepto-futurista-diseno-coche-tecnologico-moderno_950002-86159.jpg" alt="" class="h-32 w-48 rounded-md">
+    </div>
+
+    <div class="flex-1 rounded-md shadow bg-gray-700 p-4 h-60 flex flex-col items-center mb-4">
+        <div class="h-4 text-xl font-medium text-amber-500 mb-4">
+            Card2
+        </div>
+        <img src="https://img.freepik.com/fotos-premium/concepto-futurista-diseno-coche-tecnologico-moderno_950002-86159.jpg" alt="" class="h-32 w-48 rounded-md">
+    </div>
+
+    <di class="flex-1 rounded-md shadow bg-gray-700 p-4 h-60 flex flex-col items-center mb-4">
+        <div class="h-4 text-xl font-medium text-amber-500 mb-4">
+            Card3
+        </div>
+        <img src="https://img.freepik.com/fotos-premium/concepto-futurista-diseno-coche-tecnologico-moderno_950002-86159.jpg" alt="" class="h-32 w-48 rounded-md">
+        </div>
 
 <div class="flex justify-center rounded-md shadow-sm">
-    <a href="#" aria-current="page" class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-      Profile
+    <a href="#" aria-current="page" class="px-4 py-2 text-sm font-medium text-blue-700 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-amber-500 dark:focus:text-white">
+      Card1
     </a>
-    <a href="#" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-      Settings
+    <a href="#" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-amber-500 dark:focus:text-white">
+      Card2
     </a>
-    <a href="#" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-blue-500 dark:focus:text-white">
-      Messages
+    <a href="#" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-amber-500 focus:text-blue-700 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-amber-500 dark:focus:text-white">
+      Card3
     </a>
   </div>
   
@@ -62,7 +71,7 @@
     </div>
     <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
   </form>
-  
+    
     </div>
 </body>
 </html>
